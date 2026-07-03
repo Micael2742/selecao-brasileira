@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Seleção Brasileira - Contato</title>
+</head>
+<body>
+    <header>
+        <div class="imagem">
+            <img src="imagens/a.png" alt="CBF">
+            <h3>Seleção Brasileira FC</h3>
+        </div>
+
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/jogos.html">Jogos</a>
+            <a href="/jogadores.html">Jogadores</a>
+            <a href="/noticias.html">Notícias</a>
+            <a href="/sobre.html">Sobre</a>
+            <a href="/contato.html" class="active">Contato</a>
+        </nav>  
+    </header>
+
+    <main>
+        <!-- Banner de topo mantendo a identidade visual -->
+        <section id="banner-contato">
+            <h2>FALE CONOSCO</h2>
+            <p>Dúvidas, sugestões ou parcerias? Envie uma mensagem para a nossa equipe</p>
+        </section>
+
+        <!-- Seção do Formulário -->
+        <section id="secao-formulario">
+            <div class="card-formulario">
+                <form action="#" method="POST">
+                    <div class="campo">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="botao-enviar">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>Senac Minas | Micael José | 02/07/2026</footer>
+</body>
+</html>
